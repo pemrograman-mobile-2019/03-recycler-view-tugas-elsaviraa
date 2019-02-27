@@ -16,5 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
+        List<Universitas> universitasList = new ArrayList<>();
+        universitasList.add(new Universitas("album_1", "UIN Maulana Malik Ibrahim","",R.drawable.uin));
+        universitasList.add(new Universitas("album_2", "Politeknik Negeri Malang","", R.drawable.polinema));
 }

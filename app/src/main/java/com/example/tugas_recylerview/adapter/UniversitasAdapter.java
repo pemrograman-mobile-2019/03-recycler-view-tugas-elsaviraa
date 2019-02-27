@@ -61,7 +61,7 @@ public class UniversitasAdapter extends RecyclerView.Adapter<UniversitasAdapter.
 
         ViewHolder(@NonNull View itemView) {
             super(itemView);
-            imageView = itemView.findViewById(R.id.item_universitas_img_local);
+            imageView = itemView.findViewById(R.id.item_universitas_img);
             textView = itemView.findViewById(R.id.item_universitas_title);
             descView = itemView.findViewById(R.id.item_universitas_desc);
         }
