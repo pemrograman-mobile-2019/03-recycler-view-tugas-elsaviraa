@@ -21,12 +21,6 @@ public class Universitas {
         this.img_local = img_local;
     }
 
-    public Universitas(String id, String title, String desc, int img_local) {
-        this.id = id;
-        this.title = title;
-        this.desc = desc;
-        this.img_local = img_local;
-    }
 
     public String getId() {
 
