@@ -16,6 +16,22 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 public class UniversitasAdapter extends RecyclerView.Adapter<UniversitasAdapter.ViewHolder> {
+    private List<Universitas> universitasList;
 
+    public UniversitasAdapter(List<Universitas> universitasList) {
+
+        this.universitasList = universitasList;
+    }
+
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+        Context context = viewGroup.getContext();
+        LayoutInflater inflater = LayoutInflater.from(context);
+
+        View filmView = inflater.inflate(R.layout.item_universitas, viewGroup, false);
+
+        return new ViewHolder(filmView);
+    }
 
 }
