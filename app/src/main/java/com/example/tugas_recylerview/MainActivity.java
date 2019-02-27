@@ -22,4 +22,10 @@ public class MainActivity extends AppCompatActivity {
         List<Universitas> universitasList = new ArrayList<>();
         universitasList.add(new Universitas("album_1", "UIN Maulana Malik Ibrahim","",R.drawable.uin));
         universitasList.add(new Universitas("album_2", "Politeknik Negeri Malang","", R.drawable.polinema));
-}
+    }
+
+    universitasList.add(new Universitas("album_3", "Universitas Muhammadiyah Malang","", R.drawable.umm));
+    universitasList.add(new Universitas("album_4", "University of Brawijaya","" ,R.drawable.ub));
+    universitasList.add(new Universitas("album_5", "UNISMA","" ,R.drawable.unisma));
+    universitasList.add(new Universitas("album_6", "Universitas Merdeka Malang","" , R.drawable.umm));
+    universitasList.add(new Universitas("album_7", "Universitas Widyagama Malang", "", R.drawable.uwg));
